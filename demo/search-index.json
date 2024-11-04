@@ -1,0 +1,9 @@
+{
+  "name": "default",
+  "database": "production",
+  "collectionName": "trips",
+  "mappings": {
+    "dynamic": true,
+    "fields": {}
+  }
+}

@@ -1,0 +1,6 @@
+Add Count
+=========
+
+Prompt:
+
+now I want to count the traffic jams cases. Use the collection trips in the database production.

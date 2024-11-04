@@ -1,0 +1,6 @@
+Atlas Search Query
+==================
+
+Prompt:
+
+let's write an atlas search query to get all trips from trips collection where review mentions 'traffic jams'. Let's use fuzzy search just in case.

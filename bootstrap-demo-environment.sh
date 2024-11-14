@@ -19,6 +19,7 @@ atlas deployments search indexes create --file demo/search-index.json --deployme
 
 # Create a bunch of indexes so IntelliJ is happy
 indexes=(
+	"db.getSiblingDB('production').getCollection('trips').createIndex({ 'dispute.type': 1, 'total_fare': 1 })"	
 	"db.getSiblingDB('production').getCollection('trips').createIndex({ 'trip_status': 1, 'driver_id': 1 })"
 	"db.getSiblingDB('production').getCollection('trips').createIndex({ 'start_time': 1, 'end_time': 1 })"
 	"db.getSiblingDB('production').getCollection('trips').createIndex({ 'ratings.driver_rating': 1})"
